@@ -4,5 +4,5 @@ WORKDIR /home/ilovedocker/app
 
 COPY hello.sh ./
 
-ENTRYPOINT sh hello
+ENTRYPOINT [sh hello.sh]
 
